@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+body {
+  background: linear-gradient(45deg, aliceblue 50%, pink);
+}
+.centered {
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Sniglet", cursive;
+  font-size: 4rem;
+  color: rgb(22, 167, 224);
+}
+span {
+  color: rgb(207, 49, 49);
+}
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+.ui.container {
+  width: 80%;
+}
+.ui.grid {
+  width: 120%;
+  margin-left: -10rem;
+}
+.youtube-img,
+.vimeo-img {
+  height: 50px;
+  position: absolute;
+  margin-bottom: 5rem;
+  top: -5rem;
+}
+.youtube-img {
+  right: 10px;
+}
+.vimeo-img {
+  left: 10px;
+}
+.ui.relaxed.divided.list {
+  margin-top: 5rem;
+}
+@media only screen and (max-width: 1200px) {
+  .ui.container {
+    width: 95%;
+  }
+  .ui.grid {
+    width: 95%;
+    margin-left: 0;
+  }
+}
